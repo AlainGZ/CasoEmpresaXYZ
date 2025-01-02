@@ -14,7 +14,7 @@ import java.sql.Connection;
 public class Main {
  
      public static void main(String[] args) {
-        // Obtener la conexión a la base de datos desde ConexionDB
+        // Obtener la conexión a la base de datos llamando la clase ConexionDB 
         Connection connection = ConexionBD.getConnection();
         
         if (connection == null) {
